@@ -8,8 +8,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/markya0616/go-binding/account"
-	"github.com/markya0616/go-binding/contracts/name_service"
+	"github.com/markya0616/sol2grpc-sample/account"
+	"github.com/markya0616/sol2grpc-sample/contracts/name_service"
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
